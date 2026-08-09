@@ -1,0 +1,12 @@
+# single-file build — excluded per request
+og6qL.html
+
+# dev-only: decodes the fc87xy obfuscation — never publish
+naming-reference.txt
+zones_tmp.json
+g/_fnf.txt
+g/_b2.txt
+g/_zones.json
+
+# local editor state
+.claude/
