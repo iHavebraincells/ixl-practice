@@ -200,11 +200,27 @@
             text-align: center;
         }
  
-        .hero h1 {
-            font-size: 44px;
-            font-weight: 600;
-            letter-spacing: .05em;
-        }
+.hero h1 {
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.hero h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background: #b44dff;
+    box-shadow:
+        0 0 6px #b44dff,
+        0 0 14px #b44dff,
+        0 0 28px #9b2fff,
+        0 0 48px #7a1fe0;
+}
  
         #splash {
             margin-top: 10px;
